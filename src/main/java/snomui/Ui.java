@@ -2,6 +2,10 @@ package snomui;
 
 import java.util.Scanner;
 
+/**
+ * The Ui implements the user interface
+ * of the SnomBot.
+ */
 public class Ui {
     private Scanner input;
 
@@ -32,6 +36,11 @@ public class Ui {
         System.out.println("added: " + task);
     }
 
+    /**
+     * Gets the command entered by the user.
+     * @return a String representing the command of
+     *         the user.
+     */
     public String getCommand() {
         String cmd = this.input.nextLine();
         return cmd;

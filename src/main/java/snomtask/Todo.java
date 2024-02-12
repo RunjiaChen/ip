@@ -1,5 +1,9 @@
 package snomtask;
 
+/**
+ * Todo implements a todo task
+ * that the user needs to do.
+ */
 public class Todo extends Task {
 
     public Todo(String name) {
@@ -11,4 +15,6 @@ public class Todo extends Task {
     public String toString() {
         return "[T]" + super.toString();
     }
+
+
 }
